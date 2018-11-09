@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98547f18-0b8d-4f45-a38d-6a2cf9175c27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/pm73/LeilaoDaoTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/pm73/LeilaoDaoTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/pm73/UsuarioDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/pm73/UsuarioDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/pm73/dao/LeilaoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/pm73/dao/LeilaoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caelum.db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/caelum.db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/pm73/dao/LeilaoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/pm73/dao/LeilaoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/caelum/pm73/LeilaoDaoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/caelum/pm73/LeilaoDaoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/caelum/pm73/UsuarioDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/caelum/pm73/UsuarioDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,6 +90,7 @@
     <session id="-1844547228">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -300,8 +294,8 @@
     <property name="SearchEverywhereHistoryKey" value="disputadosEntre&#9;PSI&#9;JAVA://br.com.caelum.pm73.dao.LeilaoDao#disputadosEntre&#10;porPeriodo&#9;PSI&#9;JAVA://br.com.caelum.pm73.dao.LeilaoDao#porPeriodo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541763820520" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541773587207" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../leiloes-ws" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -445,7 +439,7 @@
       <workItem from="1541333771337" duration="2872000" />
       <workItem from="1541353777833" duration="22000" />
       <workItem from="1541542934270" duration="151000" />
-      <workItem from="1541761139314" duration="2727000" />
+      <workItem from="1541761139314" duration="5098000" />
     </task>
     <servers />
   </component>
@@ -482,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24534000" />
+    <option name="totallyTimeSpent" value="26905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1360" height="736" extended-state="6" />
@@ -497,7 +491,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31965813" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31965813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

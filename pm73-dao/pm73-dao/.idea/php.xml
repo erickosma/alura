@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$USER_HOME$/programas/php/phpmd.phar" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="$USER_HOME$/programas/php/PHP_CodeSniffer-3.2.3/PHP_CodeSniffer-3.2.3/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+</project>

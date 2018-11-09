@@ -1,0 +1,26 @@
+
+bsquid:S1192N"FDefine a constant instead of duplicating this literal "banco" 4 times.(Û³Û±üÿÿÿÿ
+csquid:S1192O"GDefine a constant instead of duplicating this literal "numero" 4 times.(ÁÖÜ¤şÿÿÿÿ
+_squid:S1192P"HDefine a constant instead of duplicating this literal "agencia" 4 times.(ˆ€×Œ
+_squid:S1192M"HDefine a constant instead of duplicating this literal "titular" 4 times.(ÀØÒ
+psquid:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷Óÿá
+psquid:S2293{"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷Óÿá
+qsquid:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷Óÿá
+_squid:S2095“"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…
+ksquid:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+^squid:S2095`"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…
+ksquid:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+ksquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+ksquid:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+ksquid:S2095w"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+^squid:S2095H"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…
+ksquid:S2095E"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+^squid:S2095y"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…
+lsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•¨úÿÿÿÿ
+csquid:S00112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S001121"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S00112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S00112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:S00112p"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+dsquid:S00112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+dsquid:S00112£"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ

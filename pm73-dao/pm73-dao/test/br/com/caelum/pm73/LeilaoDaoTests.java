@@ -15,6 +15,7 @@ import org.junit.Test;
 import java.util.Calendar;
 import java.util.List;
 
+import static junit.framework.TestCase.assertNull;
 import static org.junit.Assert.assertEquals;
 
 public class LeilaoDaoTests {
@@ -320,6 +321,26 @@ public class LeilaoDaoTests {
         leilaoDao.salvar(leilao2);
 
         assertEquals(150.0, leilaoDao.getValorInicialMedioDoUsuario(comprador), 0.001);
+    }
 
+    @Test
+    public void deveDeletarUmLeilao() {
+
+        Usuario usuario =
+                new Usuario("usuario", "teste@teste.com.br");
+
+        Leilao leilao = new LeilaoBuilder()
+                .comNome("Geladeira")
+                .comValor(1500.0)
+                .comDono(usuario)
+                .encerrado()
+                .constroi();
+
+
+        usuarioDao.salvar(usuario);
+        leilaoDao.salvar(leilao);
+
+        leilaoDao.deletar(leilao);
+        assertNull(leilaoDao.porId(leilao.getId()));
     }
 }

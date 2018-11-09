@@ -99,4 +99,8 @@ public class LeilaoDao {
                 .setParameter("usuario", usuario)
                 .uniqueResult();
     }
+
+    public void deletar(Leilao leilao) {
+        session.delete(leilao);
+    }
 }

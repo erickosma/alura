@@ -35,15 +35,15 @@ public class LeilaoWSTest {
     public void deveRetornarLeilaoPorId() {
         JsonPath json =
                 given()
-                    .queryParam("leilao.id",1)
-                    .header("Accept", "application/json")
-                .get("/leiloes/show")
-                    .andReturn()
-                    .jsonPath();
+                        .queryParam("leilao.id", 1)
+                        .header("Accept", "application/json")
+                        .get("/leiloes/show")
+                        .andReturn()
+                        .jsonPath();
 
         Leilao leilao = json.getObject("leilao", Leilao.class);
         Usuario usuario1 = new Usuario(1L, "Mauricio Aniche", "mauricio.aniche@caelum.com.br");
-        Leilao esperado =  new Leilao(1L,"Geladeira",800.0, usuario1, false);
+        Leilao esperado = new Leilao(1L, "Geladeira", 800.0, usuario1, false);
 
         assertEquals(esperado, leilao);
     }
@@ -58,6 +58,38 @@ public class LeilaoWSTest {
                         .xmlPath();
 
         int total = path.getInt("int");
-        assertEquals(2,total);
+        assertEquals(2, total);
+    }
+
+    @Test
+    public void deveAdicionarUmNovoLeilao() {
+        Usuario joao = new Usuario("Joao da Silva", "joao@dasilva.com");
+        Leilao leilao = new Leilao("Leilao PS4", 700.00, joao, false);
+
+        XmlPath path =
+                given()
+                        .header("Accept", "application/xml")
+                        .contentType("application/xml")
+                        .body(leilao)
+                        .expect()
+                        .statusCode(200)
+                        .when()
+                        .post("/leiloes")
+                        .andReturn()
+                        .xmlPath();
+
+        Leilao retornoLeilao = path.getObject("leilao", Leilao.class);
+        assertEquals(leilao.getNome(), retornoLeilao.getNome());
+        assertEquals(leilao.getValorInicial(), retornoLeilao.getValorInicial());
+
+        given()
+                .contentType("application/xml")
+                .body(retornoLeilao)
+                .expect()
+                .statusCode(200)
+                .when()
+                .delete("/leiloes/deletar")
+                .andReturn()
+                .asString();
     }
 }

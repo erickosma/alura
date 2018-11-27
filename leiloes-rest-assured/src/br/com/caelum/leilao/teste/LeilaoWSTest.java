@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import java.util.List;
 
+import static com.jayway.restassured.RestAssured.expect;
 import static com.jayway.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
@@ -91,5 +92,14 @@ public class LeilaoWSTest {
                 .delete("/leiloes/deletar")
                 .andReturn()
                 .asString();
+    }
+
+    @Test
+    public void deveGerarUmHeaderCookie() {
+        expect()
+                .header("novo-header", "abc")
+                .when()
+                .log().all()
+                .get("/cookie/teste");
     }
 }

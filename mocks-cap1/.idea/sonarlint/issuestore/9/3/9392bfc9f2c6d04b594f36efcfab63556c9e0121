@@ -1,0 +1,7 @@
+
+Ksquid:EmptyStatementUsageCheck
+"Remove this empty statement.(ºçÃŒÿÿÿÿÿ
+usquid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºçÃŒÿÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ü ¦
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“Ü ¦

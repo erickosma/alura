@@ -22,7 +22,7 @@ public class LeilaoDao {
 	public LeilaoDao() {
 		try {
 			this.conexao = DriverManager.getConnection(
-					"jdbc:mysql://localhost/mocks", "teste", "123456");
+					"jdbc:mysql://localhost/mocks", "root", "");
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
@@ -132,4 +132,6 @@ public class LeilaoDao {
 	}
 	
 	public int x() { return 10; }
+
+	public static String teste() { return "teste"; }
 }

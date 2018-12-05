@@ -1,0 +1,17 @@
+
+isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŸÓ‹Œûÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+Nsquid:S3400"9Remove this method and declare a constant for this value.(Ò¬áš
+\squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(·¦Ã…
+dsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÎìÜ
+asquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(÷©¶ûûÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’¡Õ¸ÿÿÿÿÿ
+gsquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(”®Ãœ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+dsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”®Ãœ
+isquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ‡®ñşÿÿÿÿ
+asquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ØèÖşÿÿÿÿ
+dsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”®Ãœ
+Asquid:S2068" Remove this hard-coded password.(ˆ½ûÿÿÿÿ8å··ø,

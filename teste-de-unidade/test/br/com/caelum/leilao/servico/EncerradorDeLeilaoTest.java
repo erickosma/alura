@@ -3,6 +3,7 @@ package br.com.caelum.leilao.servico;
 import br.com.caelum.leilao.builder.CriadorDeLeilao;
 import br.com.caelum.leilao.dominio.Leilao;
 import br.com.caelum.leilao.infra.dao.LeilaoDao;
+import br.com.caelum.leilao.infra.dao.RepositorioDeLeiloes;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -31,7 +32,7 @@ public class EncerradorDeLeilaoTest {
                 .naData(antiga).constroi();
         List<Leilao> leiloesAntigos = Arrays.asList(leilao1, leilao2);
 
-        LeilaoDao daoFalso = mock(LeilaoDao.class);
+        RepositorioDeLeiloes daoFalso = mock(RepositorioDeLeiloes.class);
         when(daoFalso.correntes()).thenReturn(leiloesAntigos);
 
         EncerradorDeLeilao encerrador = new EncerradorDeLeilao(daoFalso);
@@ -56,7 +57,7 @@ public class EncerradorDeLeilaoTest {
                 .naData(antiga).constroi();
         List<Leilao> leiloesAntigos = Arrays.asList(leilao1, leilao2);
 
-        LeilaoDao daoFalso = mock(LeilaoDao.class);
+        RepositorioDeLeiloes daoFalso = mock(RepositorioDeLeiloes.class);
         when(daoFalso.correntes()).thenReturn(leiloesAntigos);
 
         EncerradorDeLeilao encerrador = new EncerradorDeLeilao(daoFalso);
@@ -69,7 +70,7 @@ public class EncerradorDeLeilaoTest {
 
     @Test
     public void deveRetornarListaVazia() {
-        LeilaoDao daoFalso = mock(LeilaoDao.class);
+        RepositorioDeLeiloes daoFalso = mock(RepositorioDeLeiloes.class);
         when(daoFalso.correntes()).thenReturn(new ArrayList<Leilao>());
 
         EncerradorDeLeilao encerrador = new EncerradorDeLeilao(daoFalso);

@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95006061-6b4d-443d-a205-0d165ae22d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/RepositorioDePagamentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Relogio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/RelogioDoSistema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/0/d/0deffaa8460b0692ab26c89cb99145ce54e148b3" beforeDir="false" afterPath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/0/d/0deffaa8460b0692ab26c89cb99145ce54e148b3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/a/e/aee905689601b05c3f9097b09926186c8b0ba16b" beforeDir="false" afterPath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/a/e/aee905689601b05c3f9097b09926186c8b0ba16b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/b/d/bd46208e697f908333680df564541218d2521a2d" beforeDir="false" afterPath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/b/d/bd46208e697f908333680df564541218d2521a2d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/d/a/dae8deaccdefd09d43c2a801e21babe94f7b6c1c" beforeDir="false" afterPath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/sonarlint/issuestore/d/a/dae8deaccdefd09d43c2a801e21babe94f7b6c1c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leiloes-rest-assured/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
+            <state relative-caret-position="432">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="3150">
               <caret line="192" column="83" selection-start-line="192" selection-start-column="83" selection-end-line="192" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="42">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/RepositorioDePagamentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="5" lean-forward="true" selection-end-line="5" />
+            <state relative-caret-position="90">
+              <caret line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,14 +92,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/mockito-all.jar!/org/mockito/Mockito.class">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Relogio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-              <folding>
-                <element signature="e#3811#3812#0" expanded="true" />
-                <element signature="e#3874#3875#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/RelogioDoSistema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -109,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Avaliador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="180">
               <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
@@ -155,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" />
         <option value="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/RepositorioDePagamentos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Relogio.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/RelogioDoSistema.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" />
         <option value="$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java" />
       </list>
@@ -171,8 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,7 +260,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546554917768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546556004426" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -277,21 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado">
-    <configuration name="EncerradorDeLeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtilNoDomingo">
     <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
@@ -308,22 +299,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalhaCarteiroFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <option name="METHOD_NAME" value="deveContinuarAExecucaoMesmoQuandoDaoFalhaCarteiroFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GeradorDePagamentoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
@@ -334,6 +309,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.GeradorDePagamentoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.GeradorDePagamentoTest" />
+      <option name="METHOD_NAME" value="deveEmpurrarParaOProximoDiaUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtilNoDomingo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.GeradorDePagamentoTest" />
+      <option name="METHOD_NAME" value="deveEmpurrarParaOProximoDiaUtilNoDomingo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,19 +362,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EncerradorDeLeilaoTest" />
       <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" />
-      <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalhaCarteiroFalse" />
       <item itemvalue="JUnit.GeradorDePagamentoTest" />
       <item itemvalue="JUnit.GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" />
+      <item itemvalue="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" />
+      <item itemvalue="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtilNoDomingo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtilNoDomingo" />
+        <item itemvalue="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" />
         <item itemvalue="JUnit.GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" />
         <item itemvalue="JUnit.GeradorDePagamentoTest" />
         <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalhaCarteiroFalse" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,48 +394,56 @@
       <workItem from="1544869711384" duration="1217000" />
       <workItem from="1545086708199" duration="669000" />
       <workItem from="1545087513538" duration="2572000" />
-      <workItem from="1546471476190" duration="2725000" />
+      <workItem from="1546471476190" duration="4080000" />
+      <workItem from="1547592955502" duration="502000" />
     </task>
+    <task id="LOCAL-00001" summary="mock">
+      <created>1546554939960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546554939961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EncerradorDeLeilaoTest_deveContinuarAExecucaoMesmoQuandoDaoFalha - 2018.12.17 at 21h 16m 50s.xml">
-      <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncerradorDeLeilaoTest_deveContinuarAExecucaoMesmoQuandoDaoFalha - 2018.12.17 at 21h 17m 44s.xml">
-      <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncerradorDeLeilaoTest_deveContinuarAExecucaoMesmoQuandoDaoFalha - 2018.12.17 at 21h 19m 58s.xml">
-      <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncerradorDeLeilaoTest_deveContinuarAExecucaoMesmoQuandoDaoFalha - 2018.12.17 at 21h 20m 32s.xml">
-      <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncerradorDeLeilaoTest_deveContinuarAExecucaoMesmoQuandoDaoFalha - 2018.12.17 at 21h 22m 02s.xml">
-      <configuration name="EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeradorDePagamentoTest - 2019.01.02 at 21h 38m 56s.xml">
-      <configuration name="GeradorDePagamentoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeradorDePagamentoTest - 2019.01.02 at 21h 39m 45s.xml">
-      <configuration name="GeradorDePagamentoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeradorDePagamentoTest_deveGerarPagamentoParaUmLeilaoEncerrado - 2019.01.02 at 21h 50m 22s.xml">
-      <configuration name="GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GeradorDePagamentoTest_deveGerarPagamentoParaUmLeilaoEncerrado - 2019.01.02 at 21h 54m 37s.xml">
       <configuration name="GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GeradorDePagamentoTest_deveGerarPagamentoParaUmLeilaoEncerrado - 2019.01.02 at 21h 55m 30s.xml">
       <configuration name="GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 43m 30s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 48m 31s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 49m 22s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 49m 31s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 50m 30s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 50m 56s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtil - 2019.01.03 at 20h 51m 26s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeradorDePagamentoTest_deveEmpurrarParaOProximoDiaUtilNoDomingo - 2019.01.03 at 20h 53m 17s.xml">
+      <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtilNoDomingo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14065000" />
+    <option name="totallyTimeSpent" value="15922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1360" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +455,7 @@
       <window_info id="Learn" order="7" weight="0.3297546" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,7 +466,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32879046" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.681431" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,7 +521,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="mock" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDao.java">
@@ -555,58 +571,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.attach_pid7878" />
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-          <folding>
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="192" column="83" selection-start-line="192" selection-start-column="83" selection-end-line="192" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Pagamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/RepositorioDePagamentos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" lean-forward="true" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,17 +589,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding>
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="192" column="83" selection-start-line="192" selection-start-column="83" selection-end-line="192" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/RepositorioDePagamentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Relogio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/RelogioDoSistema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Avaliador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="180">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

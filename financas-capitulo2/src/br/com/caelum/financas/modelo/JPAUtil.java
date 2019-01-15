@@ -1,9 +1,0 @@
-
-public class JPAUtil {
-
-    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("financas");
-
-    public EntityManager getEntityManager() {
-        return emf.createEntityManager();
-    }
-}

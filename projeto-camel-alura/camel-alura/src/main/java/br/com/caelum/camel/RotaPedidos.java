@@ -14,6 +14,8 @@ public class RotaPedidos {
             @Override
             public void configure() throws Exception {
                 from("file:pedidos").
+                        log("${exchange.pattern}").
+                        log("${id} - ${body}").
                         to("file:saida");
             }
         };

@@ -30,9 +30,7 @@ public class RotaPedidos {
 
                                     @Override
                                     public void process(Exchange exchange) throws Exception {
-                                        int counter = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_COUNTER);
-                                        int max = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_MAX_COUNTER);
-                                        System.out.println("Redelivery - " + counter + "/" + max );
+                                        printMsg(exchange);
                                     }
                                 })
                 );
@@ -45,11 +43,11 @@ public class RotaPedidos {
 
                             @Override
                             public void process(Exchange exchange) throws Exception {
-                                int counter = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_COUNTER);
-                                int max = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_MAX_COUNTER);
-                                System.out.println("Redelivery - " + counter + "/" + max );;
+                                printMsg(exchange);
                             }
                         });
+
+                from("file:entrada").to("activemq:queue:pedidos");
 
 //usamos o componente activemq, consumindo da fila pedidos
                 from("activemq:queue:pedidos").
@@ -91,5 +89,11 @@ public class RotaPedidos {
         context.start();
         Thread.sleep(20000);
         context.stop();
+    }
+
+    private static void printMsg(Exchange exchange) {
+        int counter = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_COUNTER);
+        int max = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_MAX_COUNTER);
+        System.out.println("Redelivery - " + counter + "/" + max );
     }
 }

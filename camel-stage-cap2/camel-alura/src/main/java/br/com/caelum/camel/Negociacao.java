@@ -1,4 +1,0 @@
-package br.com.caelum.camel;
-
-public class Negociacao {
-}

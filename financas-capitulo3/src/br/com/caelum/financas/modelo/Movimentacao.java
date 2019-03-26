@@ -37,6 +37,7 @@ public class Movimentacao {
 
     @ManyToMany
     private List<Categoria> categoria;
+    private TipoMovimentacao tipoMovimentacao;
 
 
     public Integer getId() {
@@ -93,6 +94,14 @@ public class Movimentacao {
 
     public void setCategoria(List<Categoria> categoria) {
         this.categoria = categoria;
+    }
+
+    public void setTipoMovimentacao(TipoMovimentacao tipoMovimentacao) {
+        this.tipoMovimentacao = tipoMovimentacao;
+    }
+
+    public TipoMovimentacao getTipoMovimentacao() {
+        return tipoMovimentacao;
     }
 }
 

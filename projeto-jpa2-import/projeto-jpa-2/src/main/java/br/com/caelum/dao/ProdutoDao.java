@@ -28,8 +28,7 @@ public class ProdutoDao {
 	}
 
 	public Produto getProduto(Integer id) {
-		Produto produto = em.find(Produto.class, id);
-		return produto;
+		return em.find(Produto.class, id);
 	}
 
 	public List<Produto> getProdutos(String nome, Integer categoriaId, Integer lojaId) {

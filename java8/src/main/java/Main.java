@@ -1,7 +1,12 @@
+import java.math.BigDecimal;
 
 public class Main {
 
     public static void main(String[] args) {
+        BigDecimal t = BigDecimal.valueOf(Long.parseLong("1,155"));
+        System.out.println(t);
+        System.exit(1);
+
         ConsumidorDeString consumidorDeString = new ConsumidorDeString();
         consumidorDeString.ordenaString();
 

@@ -1,0 +1,21 @@
+version: "3"
+services:
+  db:
+    image: mysql:5.7.19
+    container_name: kubernetes_mysql
+    environment:
+      - MYSQL_DATABASE=loja
+      - MYSQL_USER=root
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+      - ./volume_mysql:/var/lib/mysql
+  web:
+    container_name: kubernetes_aplicacao_loja
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
+    depends_on:
+      - db

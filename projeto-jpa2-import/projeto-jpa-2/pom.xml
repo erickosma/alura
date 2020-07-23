@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>5.2.1.Final</version>
+			<version>5.3.5.Final</version>
 		</dependency>
 
 		<dependency>
@@ -89,7 +89,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.35</version>
+			<version>8.0.16</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
